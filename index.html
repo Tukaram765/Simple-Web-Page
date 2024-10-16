@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Simple Web Page</title>
+</head>
+<body>
+  <div class="se-i">
+    <form class="user-form" id="loginForm" style="margin-left: 40%;">
+      <h1 class="title-1" class="lazy img-fluid ">Simple Web Page</h1>
+      <label class="form-label" for="name">
+        <input class="form-input" type="text" name="name" id="name" placeholder="Enter name.." required>
+      </label>
+      <label class="form-label" for="email">
+        <input class="form-input" type="email" name="email" id="email" placeholder="Enter email.." required>
+      </label>
+      <label class="form-label" for="message">
+        <textarea class="form-input" id="message" placeholder="Write a message.." required></textarea>
+      </label>
+      <div class="buttons mt-2">
+        <button type="submit" class="btn btn-sm shadow-off text-uppercase" id="submit">Submit</button>
+      </div>
+
+      <div id="successMessage" class="alert alert-success mt-3 d-none" role="alert">
+        Your Form submitted Successfully !
+    </div>
+      
+    </form>
+  </div>
+  <script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+</body>
+</html>

@@ -1,0 +1,96 @@
+h1{
+text-align: center;
+
+
+}
+#submit{
+    background-color: green;
+    color: white;
+    margin-top: 20px;
+    margin-left:110px;
+
+  } 
+  .d-non {
+    display: none;
+}
+
+#successMessage {
+    margin-top: 15px;
+    color: #28a745;
+}
+.se-i {
+    position: relative;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  @media only screen and (max-width: 991.98px) {
+    .se-i {
+      padding: 4vh 4vw;
+    }
+  }
+  
+
+  .se-i .user-form {
+    position: fixed;
+    top: 25%;
+    left: 20px;
+    width: 380px;
+    padding: 30px 40px 100px 40px;
+    background-color: var(--dark);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 28px;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+
+
+  .se-i .user-form .title-1 {
+    font-size: 24px;
+    font-family: var(--primary-font);
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 1.2;
+    margin-bottom: 60px;
+  }
+  
+ 
+  .se-i .user-form .form-label {
+    position: relative;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .se-i .user-form .form-input {
+    display: block;
+    width: 100%;
+    height: 48px;
+    padding: 0 44px 0 20px;
+    border-radius: 8px;
+    background-color: #1e1f2d;
+    border: 1px solid rgba(255, 255, 255, 0);
+    font-size: 14px;
+    font-family: var(--secondary-font);
+    font-weight: 500;
+    color: #ffffff;
+    transition: all .15s ease;
+  }
+  .se-i .user-form .form-input::placeholder {
+    font-weight: 400;
+    color: #888;
+  }
+  .se-i .user-form .form-input:hover,
+  .se-i .user-form .form-input:focus {
+    background-color: #2f303d;
+  }
+  .light-theme .se-i .user-form .form-input:hover {
+    background-color: #fff;
+    box-shadow: 0 2px 0 rgb(91, 105, 135, .2);
+  }
+  .light-theme .se-i .user-form .form-input:focus {
+    background-color: #fff;
+    border-color: #888;
+  }
+
